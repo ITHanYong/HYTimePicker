@@ -289,12 +289,7 @@
         [pickerView reloadComponent:1];
         
     } else {
-        if ([_selectedHour isEqualToString:[hourArray lastObject]]) {
-            [pickerView selectRow:0 inComponent:1 animated:YES];
-            _selectedMin = @"00";
-        } else {
-            _selectedMin = minArray[row];
-        }
+        _selectedMin = minArray[row];
     }
 }
 
