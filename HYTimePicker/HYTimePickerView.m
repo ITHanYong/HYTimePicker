@@ -14,12 +14,6 @@
     
     NSMutableArray *hourArray;
     NSMutableArray *minArray;
-    NSInteger currentHour;
-    NSInteger currentMin;
-    NSString *restr;
-    
-    //NSString *selectedHour;
-    //NSString *selectedMin;
 }
 
 @property (nonatomic, assign) NSString *startTime;
@@ -226,11 +220,8 @@
     if (sender.tag == 10) {
         [self dismiss];
     } else {
-        
-        restr = [NSString stringWithFormat:@"%@:%@",_selectedHour,_selectedMin];
-        
-        if ([self.delegate respondsToSelector:@selector(timePickerViewDidSelectRow:)]) {
-            [self.delegate timePickerViewDidSelectRow:restr];
+        if ([self.delegate respondsToSelector:@selector(timePickerViewDidSelectHour:minute:)]) {
+            [self.delegate timePickerViewDidSelectHour:_selectedHour minute:_selectedMin];
         }
         [self dismiss];
     }

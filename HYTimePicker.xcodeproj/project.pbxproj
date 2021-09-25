@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4463DCAB26FD613C0007AE52 /* HYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463DCA926FD613C0007AE52 /* HYDatePickerView.m */; };
 		44CA1AB421FE9C7000AADD2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA1AB321FE9C7000AADD2A /* AppDelegate.m */; };
 		44CA1AB721FE9C7000AADD2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA1AB621FE9C7000AADD2A /* ViewController.m */; };
 		44CA1ABA21FE9C7000AADD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CA1AB821FE9C7000AADD2A /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4463DCA926FD613C0007AE52 /* HYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDatePickerView.m; sourceTree = "<group>"; };
+		4463DCAA26FD613C0007AE52 /* HYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDatePickerView.h; sourceTree = "<group>"; };
 		44CA1AAF21FE9C7000AADD2A /* HYTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA1AB221FE9C7000AADD2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44CA1AB321FE9C7000AADD2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				44CA1AB621FE9C7000AADD2A /* ViewController.m */,
 				44CA1AC821FE9D3800AADD2A /* HYTimePickerView.h */,
 				44CA1AC921FE9D3800AADD2A /* HYTimePickerView.m */,
+				4463DCAA26FD613C0007AE52 /* HYDatePickerView.h */,
+				4463DCA926FD613C0007AE52 /* HYDatePickerView.m */,
 				44CA1AB821FE9C7000AADD2A /* Main.storyboard */,
 				44CA1ABB21FE9C7100AADD2A /* Assets.xcassets */,
 				44CA1ABD21FE9C7100AADD2A /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4463DCAB26FD613C0007AE52 /* HYDatePickerView.m in Sources */,
 				44CA1AB721FE9C7000AADD2A /* ViewController.m in Sources */,
 				44CA1AC221FE9C7100AADD2A /* main.m in Sources */,
 				44CA1ACA21FE9D3800AADD2A /* HYTimePickerView.m in Sources */,

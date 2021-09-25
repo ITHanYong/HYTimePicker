@@ -12,7 +12,7 @@
 @optional
 
 //通过协议将选中的时间返回
--(void)timePickerViewDidSelectRow:(NSString *)time;
+-(void)timePickerViewDidSelectHour:(NSString *)hour minute:(NSString *)minute;
 
 @end
 
